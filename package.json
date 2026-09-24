@@ -1,0 +1,8 @@
+{
+  "name": "edtech-device-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/device_dashboard.ts", "test": "tsx src/device_dashboard.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.0"}
+}
